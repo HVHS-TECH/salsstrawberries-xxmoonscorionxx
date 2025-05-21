@@ -38,6 +38,13 @@ input {
   border: 1px solid #ccc;
   border-radius: 6px;
 }
+select {
+  width: 103%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border: 1px solid #8b0000;
+  border-radius: 6px;
+}
 
 button {
   margin-top: 1.5rem;
@@ -56,4 +63,7 @@ button:hover {
 #statusMessage {
   margin-top: 1rem;
   font-style: italic;
+}
+option.value {
+  color: #8b0000;
 }
